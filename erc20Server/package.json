@@ -1,0 +1,19 @@
+{
+  "name": "easy-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV='development' && node app.js",
+    "build": "set NODE_ENV='production' && node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chain3": "^0.1.21",
+    "express": "^4.17.1",
+    "keccak": "^2.0.0",
+    "secp256k1": "^3.7.1"
+  }
+}
